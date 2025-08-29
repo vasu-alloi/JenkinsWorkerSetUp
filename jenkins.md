@@ -17,6 +17,7 @@ Bring the EC2 agent online in Jenkins (via EC2-Fleet plugin) using SSH authentic
 This is the AMI created from WorkerNode Which we have created earlier.
 <img width="1361" height="891" alt="image" src="https://github.com/user-attachments/assets/985743b0-dcda-4975-9cc1-e4ade1f70b49" />
 Launch Template:
+I have used AMI to create this Template.
 <img width="1644" height="229" alt="image" src="https://github.com/user-attachments/assets/0ff5d43c-8721-41e9-9734-4ae2f02f9d8f" />
 
 
