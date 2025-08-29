@@ -62,7 +62,7 @@ this message is from terminal.We are facing issue with only with JenkinsUI.
 #### For checking configurations:
 ##### Navigate to manage jenkins > clouds >EC2-Fleet >configure 
 
-##### Navigate to manageJenkins > nodes > EC2-fleet -i <instance id>
+##### Navigate to manageJenkins > nodes > EC2-fleet -i "instance id"
 
 launch an agent you will see the error.
 
