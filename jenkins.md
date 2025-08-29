@@ -30,6 +30,7 @@ Launch Template:
 
 
 #### 3.Generated SSH keys to enable secure communication between Jenkins master and worker nodes.
+Connect to the JenkinsMainSever name "JenkinsServerAlloi"
 ```
 ssh-keygen -t ed25519 -f ~/.ssh/jenkins_agent_key
 ```
