@@ -20,8 +20,8 @@ Bring the EC2 agent online in Jenkins (via EC2-Fleet plugin) using SSH authentic
 
 
 #### 2.Launched an Auto Scaling Group with all required configurations using a template named JenkinsTemplate.
-<img width="1644" height="229" alt="image" src="https://github.com/user-attachments/assets/0ff5d43c-8721-41e9-9734-4ae2f02f9d8f" />
 
+<img width="1824" height="322" alt="image" src="https://github.com/user-attachments/assets/e5019769-4694-49f8-841d-8f679dd085a3" />
 
 
 
