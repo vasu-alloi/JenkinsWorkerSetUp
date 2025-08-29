@@ -55,6 +55,7 @@ this message is from terminal.We are facing issue with only with JenkinsUI.
 
 #### For checking configurations:
 Navigate to manage jenkins > clouds >EC2-Fleet >configure 
+
 Naviagte to manageJenkins > nodes > EC2-fleet -i <instance id>
 launch an agent you will see the error.
 <img width="1856" height="452" alt="image" src="https://github.com/user-attachments/assets/2b165d7c-dd4d-41d3-8f6e-49e3dbbab375" />
