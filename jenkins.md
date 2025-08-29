@@ -4,7 +4,9 @@ Instead of manually creating workers, I want to use EC2-Fleet Plugin (Auto Scali
 
 The Jenkins controller should connect to these EC2 agents via SSH (using the ubuntu user + private key).
 
-Currently, I can manually SSH into the agent from the master, but in Jenkins UI the node shows offline with the error "The selected credentials cannot be found".
+Currently, I can manually SSH into the agent from the master, but in Jenkins UI the node shows offline with the error "".
+<img width="1427" height="296" alt="image" src="https://github.com/user-attachments/assets/52be7137-b74b-4a1d-9472-e0e31c32c551" />
+
 
 So my goal is:
 
@@ -51,6 +53,6 @@ this message is from terminal.We are facing issue with only with JenkinsUI.
 
 
 #### 5.Facing an error when attempting to establish an SSH connection between the master and worker nodes in Jenkins.
-<img width="1860" height="483" alt="image" src="https://github.com/user-attachments/assets/41ff65fc-10a6-4942-8a53-01e49d238c72" />
+<img width="1427" height="296" alt="image" src="https://github.com/user-attachments/assets/e3e90611-a0a1-43ab-8921-25bc92e51f22" />
 
 The only Issue with cloud node EC2-Fleet Configuration.
