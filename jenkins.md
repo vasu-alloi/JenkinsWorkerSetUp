@@ -1,6 +1,6 @@
 I’m setting up Jenkins agents on EC2.
 
-Instead of manually creating workers, I want to use EC2-Fleet (or Auto Scaling with Spot instances) so Jenkins can dynamically scale nodes.
+Instead of manually creating workers, I want to use EC2-Fleet Plugin (Auto Scaling with Spot instances) so Jenkins can dynamically scale nodes.
 
 The Jenkins controller should connect to these EC2 agents via SSH (using the ubuntu user + private key).
 
