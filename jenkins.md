@@ -52,6 +52,7 @@ this message is from terminal.We are facing issue with only with JenkinsUI.
 
 #### 5.created a cloud EC2-Fleet in jenkins with providing ASG,SSH credentials and AWS credentials.
 <img width="1856" height="968" alt="image" src="https://github.com/user-attachments/assets/4461728b-bc04-4cc9-984b-0c9a22ff8859" />
+
 #### For checking configurations:
 Navigate to manage jenkins > clouds >EC2-Fleet >configure 
 Naviagte to manageJenkins > nodes > EC2-fleet -i <instance id>
