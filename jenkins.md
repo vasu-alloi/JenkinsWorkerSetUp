@@ -5,6 +5,7 @@ Instead of manually creating workers, I want to use EC2-Fleet Plugin (Auto Scali
 The Jenkins controller should connect to these EC2 agents via SSH (using the ubuntu user + private key).
 
 Currently, I can manually SSH into the agent from the master, but in Jenkins UI the node shows offline with the error "".
+
 <img width="1427" height="296" alt="image" src="https://github.com/user-attachments/assets/52be7137-b74b-4a1d-9472-e0e31c32c551" />
 
 
@@ -14,12 +15,16 @@ Bring the EC2 agent online in Jenkins (via EC2-Fleet plugin) using SSH authentic
 
 ### Steps:
 #### 1.Created an EC2 instance called JenkinsWorkerNodes.
+
 <img width="1657" height="273" alt="image" src="https://github.com/user-attachments/assets/0b7f144e-1edb-4cdd-9cdc-dd6d8371113f" />
 
 This is the AMI created from WorkerNode Which we have created earlier.
+
 <img width="1361" height="891" alt="image" src="https://github.com/user-attachments/assets/985743b0-dcda-4975-9cc1-e4ade1f70b49" />
+
 Launch Template:
 I have used AMI to create this Template.
+
 <img width="1644" height="229" alt="image" src="https://github.com/user-attachments/assets/0ff5d43c-8721-41e9-9734-4ae2f02f9d8f" />
 
 
@@ -51,6 +56,7 @@ this message is from terminal.We are facing issue with only with JenkinsUI.
 <img width="1654" height="380" alt="image" src="https://github.com/user-attachments/assets/d7621eec-eac4-43f3-876b-9cf063503db0" />
 
 #### 5.created a cloud EC2-Fleet in jenkins with providing ASG,SSH credentials and AWS credentials.
+
 <img width="1856" height="968" alt="image" src="https://github.com/user-attachments/assets/4461728b-bc04-4cc9-984b-0c9a22ff8859" />
 
 #### For checking configurations:
@@ -59,9 +65,11 @@ this message is from terminal.We are facing issue with only with JenkinsUI.
 ##### Navigate to manageJenkins > nodes > EC2-fleet -i <instance id>
 
 launch an agent you will see the error.
+
 <img width="1856" height="452" alt="image" src="https://github.com/user-attachments/assets/2b165d7c-dd4d-41d3-8f6e-49e3dbbab375" />
 
 #### 6.Facing an error when attempting to establish an SSH connection between the master and worker nodes in Jenkins.
+
 <img width="1427" height="296" alt="image" src="https://github.com/user-attachments/assets/e3e90611-a0a1-43ab-8921-25bc92e51f22" />
 
 The only Issue with cloud node EC2-Fleet Configuration.
