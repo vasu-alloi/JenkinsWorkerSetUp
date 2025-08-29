@@ -40,6 +40,7 @@ ssh -i ~/.ssh/jenkins_agent_key ubuntu@15.206.153.205
 
 ```
 The SSH connection between your Jenkins master and agent (worker) node is successfully established using the private key.
+this message is from terminal.We are facing issue with only with JenkinsUI.
 
 #### 4.Stored the private SSH key on the Jenkins master node (user: ubuntu) and added the public key to the authorized_keys file of the Jenkins worker node.
 
