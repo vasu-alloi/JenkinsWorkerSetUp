@@ -50,9 +50,15 @@ this message is from terminal.We are facing issue with only with JenkinsUI.
 
 <img width="1654" height="380" alt="image" src="https://github.com/user-attachments/assets/d7621eec-eac4-43f3-876b-9cf063503db0" />
 
+#### 5.created a cloud EC2-Fleet in jenkins with providing ASG,SSH credentials and AWS credentials.
+<img width="1856" height="968" alt="image" src="https://github.com/user-attachments/assets/4461728b-bc04-4cc9-984b-0c9a22ff8859" />
+#### For checking configurations:
+Navigate to manage jenkins > clouds >EC2-Fleet >configure 
+Naviagte to manageJenkins > nodes > EC2-fleet -i <instance id>
+launch an agent you will see the error.
+<img width="1856" height="452" alt="image" src="https://github.com/user-attachments/assets/2b165d7c-dd4d-41d3-8f6e-49e3dbbab375" />
 
-
-#### 5.Facing an error when attempting to establish an SSH connection between the master and worker nodes in Jenkins.
+#### 6.Facing an error when attempting to establish an SSH connection between the master and worker nodes in Jenkins.
 <img width="1427" height="296" alt="image" src="https://github.com/user-attachments/assets/e3e90611-a0a1-43ab-8921-25bc92e51f22" />
 
 The only Issue with cloud node EC2-Fleet Configuration.
